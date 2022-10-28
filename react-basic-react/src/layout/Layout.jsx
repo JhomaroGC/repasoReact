@@ -6,6 +6,8 @@ import { Box } from "@chakra-ui/react";
 import Header from "../components/Header";
 //Navegación
 import Navegacion from "../components/Navegacion";
+//Carousel
+import Carousel from "../components/Carousel"
 //Outlet
 import { Outlet } from "react-router-dom";
 
@@ -21,7 +23,6 @@ const Layout = () => {
       <Navegacion />
       {/*============================Aqui va la parte dinámica de la SPA=================================*/}
       <Outlet />
-
 
       <Footer />
     </Box>

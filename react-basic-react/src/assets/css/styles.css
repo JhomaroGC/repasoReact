@@ -1,9 +1,27 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --font : 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
 .secciones-layout {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: var(--font);
 }
 .link-nav {
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
+}
+
+.grid-text{
+    font-family: var(--font);
+    font-size: 8px;
+    text-transform:capitalize;
+
+}
+
+.precio-text{
+    font-family: var(--font);
+    font-size: 14px;
+    text-transform:capitalize;
 }

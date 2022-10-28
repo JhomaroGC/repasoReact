@@ -13,12 +13,13 @@ const Navegacion = () => {
       bg="#f1c232"
       borderRadius="5px"
       p="10px"
+      mb="10px"
     >
       <Flex>
         <Stack mb="0px">
           <Box>
             <Heading mb="0px" fontSize={24}>
-              Bienvenido Administrador
+              Bienvenido
             </Heading>
           </Box>
           <Box>
@@ -41,10 +42,10 @@ const Navegacion = () => {
             alignContent="center"
           >
             <List fontSize={18} />
-            <Box m = '5px'>
-            <Link className="link-nav" to="#">
-              Lista de Productos
-            </Link>
+            <Box m="5px">
+              <Link className="link-nav" to={"/productos"}>
+                Catálogo de Productos
+              </Link>
             </Box>
           </Button>
           <Button
@@ -58,9 +59,9 @@ const Navegacion = () => {
           >
             <Pencil fontSize={18} />
             <Box m="5px">
-            <Link className="link-nav" to="#" >
-              Modificar Productos
-            </Link>
+              <Link className="link-nav" to="#">
+                Modificar Productos
+              </Link>
             </Box>
           </Button>
           <Button
@@ -73,7 +74,7 @@ const Navegacion = () => {
             color="white"
           >
             <Cash fontSize={18} />
-            <Box ml = '5px'>
+            <Box ml="5px">
               <Link className="link-nav" to="#">
                 Reporte de Ventas
               </Link>

@@ -18,6 +18,8 @@ import InicioAdministrador from "./pages/InicioAdministrador";
 
 // //Vista Administrador-Reporte de Ventas
 // import vistaAdministradorReporteVentas from "./pages/vistaAdministradorReporteVentas";
+import DetalleProducto from "./pages/DetalleProducto";
+import ListaProductos from "./pages/ListaProductos";
 
 function App() {
   return (
@@ -25,6 +27,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element = {<InicioAdministrador/>}></Route>
+          <Route path = 'detalle-producto/:id'element = {<DetalleProducto/>}></Route>
+          <Route path = 'productos' element = {<ListaProductos/>}></Route>
+
         </Route>
       </Routes>
     </BrowserRouter>

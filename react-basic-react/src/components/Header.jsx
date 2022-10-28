@@ -12,23 +12,22 @@ const Header = () => {
       justifyContent="space-between"
       mb="20px"
       className="secciones-layout"
-      bg="#4d57db"
+      bg="#5e5454"
       p="10px"
       borderRadius="5px"
       color="#dbebf7"
     >
       <Flex alignItems="center" justifyContent="space-between">
         <Box>
-          <Image borderRadius="10px" src="http://placekitten.com/100/80" />
+          <Image borderRadius="10px" src="src\assets\img\logo.png" alt = "logo" width={100} height={100} />
         </Box>
 
         <Box ml="10px">
           <Heading mb="0px" fontSize={28}>
-            Tienda de Mascotas
+            Tienda de Instrumentos Musicales
           </Heading>
           <Text mt="0px" fontWeight={600} fontSize={18}>
-            {" "}
-            Cuidamos a tus peludos
+            El Perro de Cuerdas
           </Text>
         </Box>
       </Flex>
